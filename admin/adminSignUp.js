@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const MONGODB_URI = "mongodb+srv://jay:root@cluster0-twb0g.mongodb.net/test?retryWrites=true&w=majority";
+const MONGODB_URI = "";
 const ACI = require('amazon-cognito-identity-js');
 global.fetch = require('node-fetch');
 
@@ -33,8 +33,8 @@ exports.handler = (event, context, callback) => {
     context.callbackWaitsForEmptyEventLoop = false;
 
     const poolData = {
-        UserPoolId: "us-east-1_NcPvQduuK",
-        ClientId: "l2ke85lgkglh55fn1lansjltb"
+        UserPoolId: "  ",
+        ClientId: ""
     };
 
     const userPool = new ACI.CognitoUserPool(poolData);

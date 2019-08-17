@@ -6,8 +6,8 @@ let cachedDb = null;
 exports.handler = (event, context, callback) => {
 
     const poolData = {
-        UserPoolId: "us-east-1_NcPvQduuK",
-        ClientId: "l2ke85lgkglh55fn1lansjltb"
+        UserPoolId: "",
+        ClientId: ""
     };
 
     const userPool = new ACI.CognitoUserPool(poolData);
