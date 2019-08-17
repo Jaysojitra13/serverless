@@ -1,5 +1,5 @@
 const MongoClient = require('mongodb').MongoClient;
-const MONGODB_URI = "mongodb+srv://jay:root@cluster0-twb0g.mongodb.net/test?retryWrites=true&w=majority";
+const MONGODB_URI = "";
 const ACI = require('amazon-cognito-identity-js');
 global.fetch = require('node-fetch');
 
